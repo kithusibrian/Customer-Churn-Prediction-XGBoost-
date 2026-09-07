@@ -2,7 +2,7 @@ name: Build and Push to Docker Hub
 
 on:
   push:
-    branches: [main]  # Only trigger on main branch pushes
+    branches: [main] # Only trigger on main branch pushes
 
 jobs:
   build-and-push:
@@ -25,6 +25,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./dockerfile  # change if your Dockerfile has a different name or path
+          file: ./dockerfile # change if your Dockerfile has a different name or path
           push: true
-          tags: anasriad8/telco-fastapi:latest
+          tags: telco-churn-app:latest
