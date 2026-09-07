@@ -5,7 +5,7 @@
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
-[Gradio interface](docs/images/gradio-ui.png)
+![Gradio interface](docs/images/gradio-ui.png)
 
 An end-to-end machine-learning application that predicts whether a telecom customer is likely to churn. It combines an XGBoost classification model with a FastAPI prediction API and a Gradio interface for non-technical users.
 
